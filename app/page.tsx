@@ -1,9 +1,10 @@
-import React from 'react';
+import { Navbar } from "@/components/Navbar";
+import Image from "next/image";
 
-const HomePage = () => {
+export default function Home() {
   return (
-    <div className='text-3xl'>HomePage</div>
-  )
+    <>
+    <Navbar/>
+    </>
+  );
 }
-
-export default HomePage
